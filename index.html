@@ -31,11 +31,14 @@
                 <name>Yanlin Qian</name>
               </p>
               <p>
-                I am a senior research engineer (level 17) at Honor Camera Team, where I work on computational photography and computer vision.
+                I am a color&luma ISP research engineer, with my enthusiasm on making realtime low-ppa Computational photography algorithms and its product implementation. I work for MicroBT now.
               </p>
               <p>
-                At Honor, I work on problems for example auto-white balance, illumination reflentance spectra estimation and matrix factorization.
-                I will graduate from Phd in <a href="www.tuni.fi">Tampere University</a> in June 2020,
+                I am an ex-Huawei&Honor engineer.
+                 I work on a bunch but still quite narrow ISP problems, for example auto-white balance (awb), illumination reflentance spectra estimation, chromatic adaption, blc lsc ccm ae and so on.
+
+
+                I graduated from Phd in <a href="www.tuni.fi">Tampere University</a> in December 2020,
                 where I was supervised by Prof. <a href="http://vision.cs.tut.fi/personal/JoniKamarainen/">Joni-Kristian Kämäräinen</a> and Prof. <a href="http://cmp.felk.cvut.cz/~matas/">Jiri Matas</a>.
 
               </p>
@@ -43,9 +46,10 @@
                 <a href="mailto:qianyanlin619812051@gmail.com">Email</a> &nbsp/&nbsp
                 <!-- <a href="data/JonBarron-CV.pdf">CV</a> &nbsp/&nbsp -->
                 <!-- <a href="data/JonBarron-bio.txt">Biography</a> &nbsp/&nbsp -->
-                <a href="https://scholar.google.co.uk/citations?user=EMnEhLIAAAAJ&hl=en">Google Scholar</a>
+                <a href="https://scholar.google.co.uk/citations?user=EMnEhLIAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
                 <!-- &nbsp/&nbsp -->
                 <!-- <a href="https://www.facebook.com/barron.jon">Social</a> -->
+                <a href="https://cn.linkedin.com/in/yanlinqian">Linkedin</a>
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
@@ -66,54 +70,67 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-          <!-- paper 1 -->
-          <!-- <tr onmouseout="nerf_stop()" onmouseover="nerf_start()"  bgcolor="#ffffd0">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='nerf_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="images/vase_small.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images/vase_still.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function nerf_start() {
-                  document.getElementById('nerf_image').style.opacity = "1";
-                }
 
-                function nerf_stop() {
-                  document.getElementById('nerf_image').style.opacity = "0";
-                }
-                nerf_stop()
-              </script>
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img style="width:100%;max-width:100%" src="images/triangular_teaser.png" alt="c4_track.png" style="border-style: none">
             </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="http://www.matthewtancik.com/nerf">
-                <papertitle>NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis
-</papertitle>
+            <td width="75%" valign="middle">
+              <a href="https://arxiv.org/abs/2311.18605">
+                <papertitle>Learning Triangular Distribution in Visual World</papertitle>
               </a>
               <br>
-              <a href="https://people.eecs.berkeley.edu/~bmild/">Ben Mildenhall*</a>,
-              <a href="https://people.eecs.berkeley.edu/~pratul/">Pratul Srinivasan*</a>,
-              <a href="http://matthewtancik.com/">Matthew Tancik*</a>,
-              <strong>Jonathan T. Barron</strong>,
-              <a href="http://cseweb.ucsd.edu/~ravir/">Ravi Ramamoorthi</a>,
-              <a href="https://www2.eecs.berkeley.edu/Faculty/Homepages/yirenng.html">Ren Ng</a>
+              <a>Ping Chen, Xingpeng Zhang, Chengtao Zhou, Dichao Fan, Peng Tu, Le Zhang, Yanlin Qian</a>
               <br>
-        <em>arXiv</em>, 2020
+              <em>under review</em>,2024
               <br>
-              <a href="http://www.matthewtancik.com/nerf">project page</a>
-        /
-              <a href="https://arxiv.org/abs/2003.08934">arXiv</a>
-        /
-              <a href="https://www.youtube.com/watch?v=JuH79E8rdKc">video</a>
-        /
-              <a href="https://github.com/bmild/nerf">code</a>
-              <p></p>
-              <p>
-              Training a tiny non-convolutional neural network to reproduce a scene using volume rendering achieves photorealistic view synthesis.</p>
+              <!-- <a href="https://github.com/yhlscut/C4">code</a>/ -->
+               <!-- <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=2ahUKEwjk9OSG8_joAhWswcQBHTatBC4QFjABegQIBxAB&url=http%3A%2F%2Fopenaccess.thecvf.com%2Fcontent_CVPR_2019%2Fsupplemental%2FQian_On_Finding_Gray_CVPR_2019_supplemental.pdf&usg=AOvVaw1n3WylQjMle__9zwfIX10m">supplement</a> /  -->
+              <!-- <a href="data/yu2019cascading.bib">bibtex</a> -->
+              <p> Built on trigular distribution, we learn an injective function mapping feature difference to label difference linearly. We prove it useful in 3 tasks: Facial Age Recognition, Illumination Chromaticity Estimation, and Aesthetics assessment.</p>
             </td>
-          </tr> -->
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img style="width:100%;max-width:100%" src="images/pccc_teaser.png" alt="c4_track.png" style="border-style: none">
+            </td>
+            <td width="75%" valign="middle">
+              <a href="https://openaccess.thecvf.com/content/CVPR2022/papers/Xing_Point_Cloud_Color_Constancy_CVPR_2022_paper.pdf">
+                <papertitle>Point Cloud Color Constancy</papertitle>
+              </a>
+              <br>
+              <a>Xiaoyan Xing, Yanlin Qian(Equal First),Sibo Feng, Yuhan Dong, Jiri Matas</a>
+              <br>
+              <em>CVPR</em>,2022
+              <br>
+              <!-- <a href="https://github.com/yhlscut/C4">code</a>/ -->
+               <!-- <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=2ahUKEwjk9OSG8_joAhWswcQBHTatBC4QFjABegQIBxAB&url=http%3A%2F%2Fopenaccess.thecvf.com%2Fcontent_CVPR_2019%2Fsupplemental%2FQian_On_Finding_Gray_CVPR_2019_supplemental.pdf&usg=AOvVaw1n3WylQjMle__9zwfIX10m">supplement</a> /  -->
+              <!-- <a href="data/yu2019cascading.bib">bibtex</a> -->
+              <p> The first awb work tacking awb problem in the world of the 3d point cloud, captured with rgb sensor and a TOF sensor.</p>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img style="width:100%;max-width:100%" src="images/ffinet_teaser.png" alt="c4_track.png" style="border-style: none">
+            </td>
+            <td width="75%" valign="middle">
+              <a href="https://openaccess.thecvf.com/content/WACV2021/papers/Qian_Fast_Fourier_Intrinsic_Network_WACV_2021_paper.pdf">
+                <papertitle>Fast Fourier Intrinsic Network</papertitle>
+              </a>
+              <br>
+              <a>Yanlin Qian, Miaojing Shi, Joni-Kristian Kämäräinen, Jiri Matas</a>
+              <br>
+              <em>WACV</em>,2020
+              <br>
+              <!-- <a href="https://github.com/yhlscut/C4">code</a>/ -->
+               <!-- <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=2ahUKEwjk9OSG8_joAhWswcQBHTatBC4QFjABegQIBxAB&url=http%3A%2F%2Fopenaccess.thecvf.com%2Fcontent_CVPR_2019%2Fsupplemental%2FQian_On_Finding_Gray_CVPR_2019_supplemental.pdf&usg=AOvVaw1n3WylQjMle__9zwfIX10m">supplement</a> /  -->
+              <!-- <a href="data/yu2019cascading.bib">bibtex</a> -->
+              <p> To address the problem of decomposing an image into albedo and shading, we propose the Fast Fourier Intrinsic Network, FFI-Net in short, that operates in the spectral domain, splitting the input into several spectral bands.</p>
+            </td>
+          </tr>
 
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
